@@ -8,6 +8,7 @@ target/
 .ideaidea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
+.idea/copilot.data.migration.ask2agent.xml
 .idea/libraries/
 *.iws
 *.iml
@@ -37,4 +38,4 @@ build/
 
 ### Mac OS ###
 .DS_Store!/openai-chat-api/.mvn/
-.idea/copilot.data.migration.ask2agent.xml
+

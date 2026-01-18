@@ -5,8 +5,7 @@ target/
 .kotlin
 
 ### IntelliJ IDEA ###
-.idea
-.idea/modules.xml
+.ideaidea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
@@ -38,3 +37,4 @@ build/
 
 ### Mac OS ###
 .DS_Store!/openai-chat-api/.mvn/
+.idea/copilot.data.migration.ask2agent.xml

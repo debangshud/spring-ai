@@ -5,9 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class OpenaiChatApiApplication {
-
     static void main(String[] args) {
         SpringApplication.run(OpenaiChatApiApplication.class, args);
     }
-
 }

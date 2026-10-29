@@ -40,3 +40,4 @@ build/
 ### Mac OS ###
 .DS_Store!/openai-chat-api/.mvn/
 
+.DS_Store

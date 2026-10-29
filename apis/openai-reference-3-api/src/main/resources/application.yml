@@ -1,0 +1,16 @@
+spring:
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY:test-api-key}
+      chat:
+        model: gpt-4o-mini
+        temperature: 0.7
+  application:
+    name: openai-reference-3-api
+server:
+  port: 8083
+logging:
+  level:
+    org.springframework.ai: debug
+    org.springframework.ai.chat.client.advisor: debug
+    root: info

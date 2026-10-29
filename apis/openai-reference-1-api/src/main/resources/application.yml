@@ -1,0 +1,15 @@
+spring:
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY:test-api-key}
+      chat:
+        model: gpt-4o-mini
+  application:
+    name: openai-reference-1-api
+server:
+  port: 8081
+logging:
+  level:
+    org.springframework.ai: debug
+    org.springframework.ai.chat.client.advisor: debug
+    root: info
